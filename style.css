@@ -31,30 +31,30 @@ body{
   margin: 0 auto;
 }
 
+.display-layout{
+  display: flex;
+}
+
 
 /* Header Design */
 .header-container{
   max-width: 1160px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
 }
 
 .logo-container{
-display: flex;
 align-items: center;
 gap: 10px;
 }
 
 .logo-container h3{
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
-
 ul{
-  display: flex;
   gap: 20px;
 }
 
@@ -97,6 +97,48 @@ color: #05D4DF;
   display: none;
 }
 
+/* Hero Section Design */
+.heor-container{
+justify-content: space-around;
+align-items: center;
+}
+
+.content-container{
+  max-width: 640px;
+}
+
+.content-title{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--header-color);
+}
+
+.content-container p{
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.image-container img{
+  width: 100%;
+}
+
+.enroll-btn{
+  padding: 10px 45px;
+  font-size: 1.25rem;
+  background: var(--header-color);
+  color: var(--white-color);
+  border-style: none;
+  border-radius: 10px;
+}
+
+.empower{
+  color: var(--secondary-color);
+}
+
+.vision{
+  color: var(--primary-color);
+}
 
 
 
@@ -104,6 +146,7 @@ color: #05D4DF;
 
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
+  /* header responsive */
   .logo-container h3, nav, .btn-div button{
     display: none;
   }
@@ -117,5 +160,19 @@ color: #05D4DF;
   display: block;
   font-size: 30px;
 }
+
+/* Hero Responsive */
+  .heor-container{
+  flex-direction: column-reverse;
+  margin: 20px;
+  }
+
+  .content-container{
+    text-align: center;
+  }
+  .content-container h2{
+    font-size: 2rem;
+    padding: 25px 0;
+  }
 
 }
