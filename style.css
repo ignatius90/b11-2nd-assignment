@@ -92,3 +92,30 @@ color: #05D4DF;
   border-style: none;
   border-radius: 10px;
 }
+
+.fa-bars{
+  display: none;
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+  .logo-container h3, nav, .btn-div button{
+    display: none;
+  }
+
+  .header-container{
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 10px 15px;
+  }
+  
+  .fa-bars{
+  display: block;
+  font-size: 30px;
+}
+
+}
