@@ -22,6 +22,7 @@ body{
   --header-color: #111111;
   --body-text-color: #666666;
   --white-color: #ffffff;
+  --green-color: #008000;
 }
 
 
@@ -177,7 +178,6 @@ padding: 60px 0;
    background-image: linear-gradient(180deg, #ddc3ff, #ffffff);
 }
 
-
 .kinder h4, .elementary h4, .middle h4{
   font-size: 1.5rem;
   margin: 32px 0;
@@ -230,6 +230,7 @@ padding: 60px 0;
   background: linear-gradient(180deg, #ffffff20, #FEA30140), url(assets/bg.png);
   width: 100%;
 }
+
 .stories-container h3{
   font-size: 2.8rem;
   text-align: center;
@@ -237,22 +238,19 @@ padding: 60px 0;
 }
 
 .story-content{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3,1fr);
-  grid-column: 1/2;
-  grid-row: 1/3;
+  justify-content: space-between;
 }
 
 .activities{
-  background: var(--secondary-color);
-  border-radius: 20px;
+  max-width: 540px;
+  background: var(--white-color);
+  border-radius: 15px;
   overflow: hidden;
 }
 
-.activities h4{
-  font-size: 1rem;
-  margin: 28px 0;
+.activities-items{
+  padding: 38px;
+  position: relative;
 }
 
 .activities img{
@@ -260,15 +258,67 @@ padding: 60px 0;
   height: auto;
 }
 
-.content-box{
-  padding: 20px;
+.activities h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
-.activities button{
-  padding: 10px 20px;
+.activities-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 600px;
+}
+
+.activities-content{
+  background: var(--white-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.content-box h4{
+  font-size: 1rem;
+}
+
+.activities-items button{
+  padding: 14px 20px;
   border-style: none;
   border-radius: 20px;
+  position: absolute;
+  color: var(--white-color);
+  top: -28px;
+  background: var(--primary-color);
 }
+
+.content-box{
+  padding: 35px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-green{
+  position: absolute;
+  top: -22px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  position: absolute;
+  background: var(--green-color);
+  border-style: none;
+  color: var(--white-color); 
+}
+.btn-blue{
+  position: absolute;
+  top: -22px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  position: absolute;
+  background: var(--primary-color);
+  border-style: none;
+  color: var(--white-color); 
+}
+
+
+
 
 
 
