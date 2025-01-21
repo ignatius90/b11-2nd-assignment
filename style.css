@@ -402,6 +402,17 @@ max-width: 400px;
   background: red;
 }
 
+#admission-going{
+  width: auto;
+  height: 40px;
+  font-weight: bold;
+  color: var(--header-color);
+  background: #01ACFD90;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
 
 
 /* Mobile Responsive */
@@ -443,7 +454,7 @@ max-width: 400px;
   .kinder, .elementary, .middle{
     max-width: 100%;
     padding: 70px;
-    margin: 20px;
+    margin: 10px 15px;
   }
 
   .curriculum-container h3{
@@ -461,7 +472,7 @@ max-width: 400px;
   }
   .activities-card{
   grid-template-columns: repeat(2, 1fr);
-  margin: 20px;
+  margin: 15px;
   }
 
   .content-box{
@@ -469,7 +480,7 @@ max-width: 400px;
   }
 
   .btn-green, .btn-blue{
-    font-size: .8rem;
+    font-size: .7rem;
   }
 
   .stories-container h3{
@@ -488,8 +499,7 @@ max-width: 400px;
   /* Footer Design */
   .footer-container{
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 50px 25px;
   }
-
 
 }
