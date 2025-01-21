@@ -396,10 +396,8 @@ max-width: 400px;
   margin-bottom: 20px;
 }
 
-.fa-brands{
-  width: 20px;
-  height: 20px;
-  background: red;
+.social-icons img{
+margin-right: 5px;
 }
 
 #admission-going{
