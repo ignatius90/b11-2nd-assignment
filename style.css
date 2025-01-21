@@ -360,7 +360,13 @@ max-width: 400px;
 }
 
 .logo-names img{
+  width: 100%;
+}
+
+.logo-names div{
   width: 82px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .logo-names h3{
@@ -372,7 +378,6 @@ max-width: 400px;
   font-size: 1.25rem;
 }
 
-
 .about-school h4{
   font-size: 1.5rem;
   margin-bottom: 20px;
@@ -383,12 +388,20 @@ max-width: 400px;
   color: var(--white-color);
   font-size: 1.25rem;
   display: block;
+  margin-bottom: 10px;
 }
 
 .social-icons h4{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
+
+.fa-brands{
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+
 
 
 /* Mobile Responsive */
@@ -469,6 +482,13 @@ max-width: 400px;
 
   .btn-view button{
   margin-top: 30px;
+  }
+
+
+  /* Footer Design */
+  .footer-container{
+    flex-direction: column;
+    padding: 50px 20px;
   }
 
 
