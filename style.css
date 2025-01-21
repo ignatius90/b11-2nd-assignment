@@ -227,13 +227,17 @@ padding: 60px 0;
 
 /* Our Stories Section */
 .stories-container{
+  padding: 60px 0;
   background: linear-gradient(180deg, #ffffff20, #FEA30140), url(assets/bg.png);
   width: 100%;
 }
 
-.stories-container h3{
+.stories-container h3, .stories-container .btn-view{
   font-size: 2.8rem;
   text-align: center;
+}
+
+.stories-container h3{
   margin-bottom: 80px;
 }
 
@@ -276,6 +280,11 @@ padding: 60px 0;
   border-radius: 10px;
   overflow: hidden;
 }
+
+.activities-content img{
+  width: 100%;
+}
+
 .content-box h4{
   font-size: 1rem;
 }
@@ -299,6 +308,7 @@ padding: 60px 0;
 .btn-green{
   position: absolute;
   top: -22px;
+  font-size: 1rem;
   padding: 10px 20px;
   border-radius: 20px;
   position: absolute;
@@ -309,6 +319,7 @@ padding: 60px 0;
 .btn-blue{
   position: absolute;
   top: -22px;
+  font-size: 1rem;
   padding: 10px 20px;
   border-radius: 20px;
   position: absolute;
@@ -317,9 +328,15 @@ padding: 60px 0;
   color: var(--white-color); 
 }
 
-
-
-
+.btn-view button{
+  padding: 10px 60px;
+  font-size: 1.25rem;
+  background: var(--header-color);
+  color: var(--white-color);
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 80px;
+}
 
 
 
@@ -375,5 +392,35 @@ padding: 60px 0;
   .arrow{
     display: none;
   }
+
+/* Stories Section */
+  .activities{
+  display: none;
+  }
+  .activities-card{
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+  }
+
+  .content-box{
+    padding: 20px;
+  }
+
+  .btn-green, .btn-blue{
+    font-size: .8rem;
+  }
+
+  .stories-container h3{
+  margin-bottom: 30px;
+  }
+
+  .stories-container{
+    padding: 30px 0;
+  }
+
+  .btn-view button{
+  margin-top: 30px;
+  }
+
 
 }
