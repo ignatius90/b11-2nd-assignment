@@ -338,8 +338,57 @@ padding: 60px 0;
   margin-top: 80px;
 }
 
+/* Footer Design */
+.footer-bg{
+  background: var(--primary-color);
+}
+
+.footer-container{
+  color: var(--white-color);
+  justify-content: space-around;
+  gap: 40px;
+  flex-basis: content;
+  padding: 130px 0;
+}
+
+.logo-items{
+max-width: 400px;
+}
+
+.logo-names{
+  display: flex;
+}
+
+.logo-names img{
+  width: 82px;
+}
+
+.logo-names h3{
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+}
+
+.logo-items p{
+  font-size: 1.25rem;
+}
 
 
+.about-school h4{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about-school a{
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 1.25rem;
+  display: block;
+}
+
+.social-icons h4{
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
 
 
 /* Mobile Responsive */
