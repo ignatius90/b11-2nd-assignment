@@ -479,6 +479,10 @@ max-width: 400px;
     padding: 20px;
   }
 
+  .content-box h4{
+    font-size: .8rem;
+  }
+
   .btn-green, .btn-blue{
     font-size: .7rem;
   }
